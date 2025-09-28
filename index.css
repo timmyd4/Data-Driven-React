@@ -1,0 +1,25 @@
+html, body
+{
+    margin: 0;
+}
+header
+{
+    background:red ;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+header > img
+{
+    height: 50px;
+    width: 50px;
+}
+
+header > h1 
+{
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: Inter;
+}

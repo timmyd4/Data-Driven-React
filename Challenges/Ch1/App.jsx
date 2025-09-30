@@ -1,4 +1,4 @@
-import Header from "../../Components/Header.jsx";
+import Header from "./Ch1Header.jsx";
 export default function App()
 {
     return ( <Header/>);

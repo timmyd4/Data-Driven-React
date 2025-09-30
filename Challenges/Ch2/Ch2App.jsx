@@ -1,5 +1,5 @@
-import Header from "../../Components/Header.jsx";
-import Entry from "../../Components/Entry.jsx";
+import Header from "./Ch2Header.jsx";
+import Entry from "./Ch2Entry.jsx";
 export default function App()
 {
     return (

@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <header>
-            <img src="../public/globe.png" alt="globe icon" />
+            <img src={`${import.meta.env.BASE_URL}globe.png`} alt="globe icon" />
             <h1>my travel journal.</h1>
         </header>
     )

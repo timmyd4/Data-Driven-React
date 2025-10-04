@@ -6,7 +6,7 @@ export default function Entry(props)
                 <img className="image" src={props.img.src} alt={props.img.alt} />
             </div>
             <div className="info-container">
-                <img className="marker" src="../public/marker.png" alt="map marker icon" />
+                <img className="marker" src={`${import.meta.env.BASE_URL}marker.png`} alt="map marker icon" />
                 <span className="country">{props.country}</span>
                 <a href={props.googleMapsLink}>View on Google Maps</a>
                 <h2 className="entry-title">{props.title}</h2>

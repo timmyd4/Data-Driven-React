@@ -1,27 +1,27 @@
-export default function ContactCard(whatever)
+export default function ContactCard({img, name, phone, email})
 {
-    console.log(whatever);
     return (
         <article className="contact-card">
-                <img 
-                    src="./images-Ch5/mr-whiskerson.png"
+                <img
+                    src={img}
                     alt="Photo of Mr. Whiskerson"
                 />
-                <h3>Mr. Whiskerson</h3>
+                <h3>{name}</h3>
                 <div className="info-group">
-                    <img 
-                        src="./images-Ch5/phone-icon.png" 
-                        alt="phone icon" 
+                    <img
+                        src="./images-Ch5/phone-icon.png"
+                        alt="phone icon"
                     />
-                    <p>(212) 555-1234</p>
+                    <p>{phone}</p>
                 </div>
                 <div className="info-group">
-                    <img 
-                        src="./images-Ch5/mail-icon.png" 
+                    <img
+                        src="./images-Ch5/mail-icon.png"
                         alt="mail icon"
                     />
-                    <p>mr.whiskaz@catnap.meow</p>
+                    <p>{email}</p>
                 </div>
             </article>
     )
 }
+

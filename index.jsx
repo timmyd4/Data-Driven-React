@@ -28,7 +28,12 @@
 // import ReactDOM from "react-dom/client";
 // ReactDOM.createRoot(document.querySelector("#root")).render(<Ch9/>);/
 
-//Challenge Ten
-import Ch10 from "./Challenges/Ch10/Ch10App.jsx";
+// //Challenge Ten
+// import Ch10 from "./Challenges/Ch10/Ch10App.jsx";
+// import ReactDOM from "react-dom/client";
+// ReactDOM.createRoot(document.querySelector("#root")).render(<Ch10/>);
+
+//Challenge Twelve
+import Ch12 from "./Challenges/Ch12/Ch12App.jsx";
 import ReactDOM from "react-dom/client";
-ReactDOM.createRoot(document.querySelector("#root")).render(<Ch10/>);
+ReactDOM.createRoot(document.querySelector("#root")).render(<Ch12/>);
